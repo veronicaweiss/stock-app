@@ -1,0 +1,27 @@
+ul {
+	display: flex;
+    width: 30%;
+    padding: 0;
+}
+
+li {
+	list-style: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s;
+    background: #f2f2f2;
+    height: 35px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4c4c4c;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+li.active {
+    border-bottom: solid 1px #45879d;
+    background: #f8f8f8;
+    color: #45879d;
+}

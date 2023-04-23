@@ -1,0 +1,1 @@
+export const wsUrl = 'wss://wstest.fxempire.com?token=btctothemoon'

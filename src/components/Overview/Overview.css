@@ -1,0 +1,26 @@
+.history-table {
+	width: 100%;
+	border-spacing: 0;
+}
+
+tr:nth-of-type(odd) {
+		background:#EEEEEE;
+	}
+
+th {
+	text-align: left;
+    background: #000;
+    color: #fff;
+    padding: 9px 20px;
+    width: 16.6%;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+td {
+	height: 39px;
+	width: 16.6%;
+/*    border-bottom: 1px solid #ccc;*/
+    padding: 9px 20px;
+    font-size: 14px;
+}
